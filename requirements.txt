@@ -7,3 +7,57 @@ seaborn==0.12.2
 # Jupyter/Colab support
 jupyter==1.0.0
 ipykernel==6.22.0
+
+The Brazilian E-Commerce dataset from Kaggle presents a compelling real-world scenario for a predictive analytics project due to its multifaceted nature. Comprising several interconnected CSV files, it offers a granular view of e-commerce operations, spanning customer demographics, order details, product attributes, payment methods, delivery logistics, and customer feedback. This interconnectedness allows for the exploration of complex relationships and the creation of insightful features through data integration. The dataset's substantial size ensures sufficient data for robust model training and evaluation, while its diverse information domains enable the formulation of practical business questions relevant to various stakeholders within an e-commerce ecosystem. By leveraging this rich dataset, we can simulate real-world analytical challenges, such as predicting customer churn, optimizing product recommendations, or forecasting delivery times, thereby providing a strong foundation for developing practical predictive modeling skills.
+
+Once you run this code, you'll see the first few rows of each of the nine DataFrames. This will give us an initial understanding of the columns available in each table and the type of information they contain.
+
+Task
+Here is all the data you need: "olist_products_dataset.csv" "olist_orders_dataset.csv" "product_category_name_translation.csv" "olist_customers_dataset.csv" "olist_order_reviews_dataset.csv"
+
+Double-click (or enter) to edit
+
+Data loading
+Subtask:
+Load the provided CSV files into pandas DataFrames.
+
+Reasoning: Load the provided CSV files into pandas DataFrames and display the first 5 rows of each to verify.
+
+Available files:
+total 42M
+-rw-r--r-- 1 root root 8.7M May  3 19:18 olist_customers_dataset.csv
+-rw-r--r-- 1 root root  14M May  3 19:18 olist_order_reviews_dataset.csv
+-rw-r--r-- 1 root root  17M May  3 19:18 olist_orders_dataset.csv
+-rw-r--r-- 1 root root 2.3M May  3 19:18 olist_products_dataset.csv
+-rw-r--r-- 1 root root 2.6K May  3 19:18 product_category_name_translation.csv
+drwxr-xr-x 1 root root 4.0K Apr 30 13:37 sample_data
+
+Successfully loaded:
+- orders       : (99441, 8)
+- reviews      : (99224, 7)
+- customers    : (99441, 5)
+- products     : (32951, 9)
+- translations : (71, 2)
+
+Merged dataset shape: (99992, 18)
+
+Cleaned dataset shape: (96359, 20)
+<ipython-input-9-ff47a347aec8>:72: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(data=main_df, x='review_score', palette='viridis')
+
+<ipython-input-9-ff47a347aec8>:78: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(
+
+Key Insights:
+• 1. Reviews are skewed positive (mean score: 4.2)
+• 2. Delivery delays correlate with low reviews (1-2 stars)
+• 3. 2.9% of orders have delays > 7 days
+• 4. Top customer states: ['SP', 'RJ', 'MG']
+
+Analysis complete! Results saved to olist_analysis_results.csv
