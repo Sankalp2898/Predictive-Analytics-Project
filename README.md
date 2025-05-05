@@ -26,4 +26,4 @@ Predicts low customer reviews (≤2 stars) due to delivery delays for Olist, a B
 3. View results in the notebook or exported `visuals/` folder.
 
 ## 📄 Report
-Download the full analysis: [Final_Report.pdf](file:///C:/Users/SANKALP/Downloads/Predictive.pdf)
+Download the full analysis: [[Final_Report.pdf]]([url](https://docs.google.com/document/d/1F94rB9wyQpFZnRUijR9Xw5np7O_bkDhJKj95aR9t9Wc/edit?usp=sharing))
