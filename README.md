@@ -21,7 +21,7 @@ Predicts low customer reviews (≤2 stars) due to delivery delays for Olist, a B
 
 ## ▶️ How to Run
 1. Open the Colab notebook:  
-   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/repo/blob/main/brazilian_ecommerce_analysis.ipynb)
+   [![Open in Colab](https://colab.research.google.com/drive/1iLXfS8mxc033kyJis6-x7P1kGi-dIrXI#scrollTo=0vqtZa7q37nn)
 2. Click "Runtime" → "Run all" to execute all cells.
 3. View results in the notebook or exported `visuals/` folder.
 
