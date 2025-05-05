@@ -23,7 +23,7 @@ Predicts low customer reviews (≤2 stars) due to delivery delays for Olist, a B
 1. Open the Colab notebook:  
    [[Open in Colab](https://colab.research.google.com/drive/1iLXfS8mxc033kyJis6-x7P1kGi-dIrXI#scrollTo=0vqtZa7q37nn)
 2. Click "Runtime" → "Run all" to execute all cells.
-3. View results in the notebook or exported `visuals/` folder.
+3. View results in the notebook.
 
 ## 📄 Report
-Download the full analysis: [[Final_Report.pdf]]([url](https://docs.google.com/document/d/1F94rB9wyQpFZnRUijR9Xw5np7O_bkDhJKj95aR9t9Wc/edit?usp=sharing))
+Download the full analysis: [[Final_Report.pdf]][url](https://docs.google.com/document/d/1F94rB9wyQpFZnRUijR9Xw5np7O_bkDhJKj95aR9t9Wc/edit?usp=sharing)
