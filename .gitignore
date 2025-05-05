@@ -1,0 +1,14 @@
+# Data files
+data/*.csv
+data/*.xlsx
+
+# Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Environment files
+.env
+venv/
+
+# Large files
+*.zip
+*.pdf
